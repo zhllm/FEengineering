@@ -5,7 +5,7 @@ const path = require('path');
 const fs = require('fs');
 const { downloadImages } = require('./src/utils/utils');
 const app = express();
-const port = 3000;
+const port = 8112;
 
 
 app.use('/static', express.static('public'));
