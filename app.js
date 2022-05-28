@@ -8,7 +8,7 @@ const app = express();
 const port = 8112;
 
 
-app.use('/static', express.static('public'));
+app.use(express.static('public'));
 
 
 app.get('/', (req, res) => {
